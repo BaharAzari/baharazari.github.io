@@ -1,9 +1,10 @@
 main:
-  - title: "Posts"
-    url: /posts/
+
   - title: "About"
     url: /about/
-  - title: "Pages"
-    url: /_pages/
-  - title: "External Link"
-    url: https://google.com
+  - title: "Projects"
+    url: /projects/
+  - title: "Articles"
+    url: /articles/
+  - title: "Publications"
+    url: https://scholar.google.com/citations?user=MpO6-QsAAAAJ&hl=en

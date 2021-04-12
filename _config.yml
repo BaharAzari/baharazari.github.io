@@ -10,11 +10,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bahar's Log Book"
+title                    : "Minimal Mistakes"
 title_separator          : "-"
-subtitle                 : "My research and interests"
-name                     : "Bahar Azari"
-description              : "some description"
+subtitle                 : "Development Test Site"
+name                     : "Your Name"
+description              : "Minimal Mistakes theme test."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/test"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -82,40 +82,37 @@ analytics:
 
 # Site Author
 author:
-  name             : "Bahar Azari"
-  avatar           : "/assets/images/bahar.jpeg"
-  bio              : "bio."
+  name             : "Your Name"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
   location         : "Somewhere"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:azari.b@northeastern.edu"
-    - label: "Website"
-      icon: "fas fa-fw fa-google"
-       url: "https://www.google.com/"
+    - label: "Your Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://your-site.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-       url: "https://twitter.com/AzariBahar"
+      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/BaharAzari"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 
 # Site Footer
 footer:
-    links:
-      - label: "Email"
-        icon: "fas fa-fw fa-envelope-square"
-         url: "mailto:azari.b@northeastern.edu"
-      - label: "Website"
-        icon: "fas fa-fw fa-google"
-         url: "https://www.google.com/"
-      - label: "Twitter"
-        icon: "fab fa-fw fa-twitter-square"
-         url: "https://twitter.com/AzariBahar"
-      - label: "GitHub"
-        icon: "fab fa-fw fa-github"
-         url: "https://github.com/BaharAzari"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 
 # Reading Files

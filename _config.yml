@@ -58,34 +58,35 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
+  name   : "Bahar Azari"
+  avatar : "/assets/images/bahar.jpeg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
-    - label: "Website"
+    - label: "Google Scholar"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://scholar.google.com/citations?user=MpO6-QsAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/BaharAzari"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/AzariBahar"
+
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+    #  url: "https://instagram.com/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-link"
+      url: "https://scholar.google.com/citations?user=MpO6-QsAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/BaharAzari"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/AzariBahar"
 
 defaults:
   # _posts

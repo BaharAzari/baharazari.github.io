@@ -87,9 +87,9 @@ author:
   bio              : "bio."
   location         : "Somewhere"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:azari.b@northeastern.edu"
+    #- label: "Email"
+      #icon: "fas fa-fw fa-envelope-square"
+       #url: "mailto:azari.b@northeastern.edu"
     - label: "Website"
       icon: "fas fa-fw fa-google"
        url: "https://www.google.com/search?q=google+scholar&oq=google+scholar&aqs=chrome.0.69i59l2j69i64j69i60l3.4505j0j7&sourceid=chrome&ie=UTF-8"

@@ -5,41 +5,26 @@
   <title>Bahar Azari</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <style>
-    /* Minor utilities that match the template vibe without altering the core style */
-    .section-title { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
-    .subtle { color: #555; }
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-    .tag { display: inline-block; padding: 2px 8px; border-radius: 999px; border: 1px solid #ddd; margin-right: 6px; margin-bottom: 4px; font-size: 12px;}
-    .muted { color: #777; }
-    .grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
-    @media (min-width: 860px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
-  </style>
 </head>
 <body>
   <table style="width:100%;max-width:840px;margin-left:auto;margin-right:auto;border-collapse:separate;border-spacing:0 18px;">
+    <!-- Header -->
     <tr>
       <td style="padding:0 24px;">
         <table style="width:100%;">
           <tr>
             <td style="width:66%;vertical-align:middle;">
               <p class="name">Bahar Azari</p>
-              <p class="papertitle" style="margin:6px 0 10px 0;">Vision–Language & Diffusion Research Scientist</p>
-              <p class="subtle" style="margin:0 0 12px 0;">Seattle, WA</p>
+              <p class="papertitle" style="margin:6px 0 10px 0;">Machine Learning Research Scientist</p>
+              <p style="margin:0 0 12px 0;">Seattle, WA</p>
               <p>
                 <a href="mailto:azari.b@northeastern.edu">azari.b@northeastern.edu</a> &nbsp;•&nbsp;
                 <a href="https://www.linkedin.com/in/baharazari/">LinkedIn</a> &nbsp;•&nbsp;
                 <a href="https://scholar.google.com/citations?hl=en&user=MpO6-QsAAAAJ&view_op=list_works&sortby=pubdate">Google&nbsp;Scholar</a> &nbsp;•&nbsp;
                 <a href="2025_BaharAzari-Resume.pdf">CV (PDF)</a>
               </p>
-              <p>
-                Machine‑learning researcher (PhD, Bosch Center for AI) focused on vision‑language models and diffusion methods.
-                I pair custom vision encoders with CLIP‑style alignment, curate large multimodal datasets, and turn research ideas
-                into reliable, production‑ready systems.
-              </p>
             </td>
             <td style="width:34%;vertical-align:top;text-align:right;">
-              <!-- Keep the "one/two" rollover image slots from the template; show a placeholder if no photo yet -->
               <div class="one" style="margin-left:auto;">
                 <img class="two" src="headshot-hover.png" onerror="this.style.opacity=0" style="opacity:0;border-radius:6px;">
                 <img src="headshot.jpg" alt="Bahar Azari" style="border-radius:6px;width:160px;height:160px;object-fit:cover;" onerror="this.src='https://placehold.co/160x160?text=Bahar';">
@@ -50,104 +35,10 @@
       </td>
     </tr>
 
-    <!-- Skills -->
+    <!-- Project (template) -->
     <tr>
       <td style="padding:0 24px;">
-        <div class="section-title">Skills</div>
-        <div>
-          <span class="tag">Vision–Language LLMs</span>
-          <span class="tag">Text‑to‑Image Diffusion</span>
-          <span class="tag">CLIP / Contrastive Pre‑training</span>
-          <span class="tag">DDPM</span>
-          <span class="tag">Equivariant / Geometric DL</span>
-          <span class="tag">Anomaly & Defect Detection</span>
-          <span class="tag">PyTorch</span>
-          <span class="tag">Lightning</span>
-          <span class="tag">JAX / Flax</span>
-          <span class="tag">HF Transformers/Diffusers</span>
-          <span class="tag">Spark</span>
-          <span class="tag">WandB</span>
-          <span class="tag">AWS SageMaker</span>
-          <span class="tag">SLURM</span>
-        </div>
-      </td>
-    </tr>
-
-    <!-- Experience -->
-    <tr>
-      <td style="padding:0 24px;">
-        <div class="section-title">Experience</div>
-        <table style="width:100%">
-          <tr>
-            <td style="width:72%;vertical-align:top;">
-              <p class="papertitle">Machine Learning Research Scientist II — Bosch Center for Artificial Intelligence</p>
-            </td>
-            <td style="width:28%;text-align:right;vertical-align:top;" class="muted">Jan 2024 – Present</td>
-          </tr>
-          <tr><td colspan="2" class="subtle">
-            • Research on text‑ and image‑guided diffusion for industrial anomaly detection<br>
-            • Cross‑functional collaboration on data augmentation for large‑scale manufacturing
-          </td></tr>
-
-          <tr><td colspan="2" style="height:10px;"></td></tr>
-
-          <tr>
-            <td style="vertical-align:top;">
-              <p class="papertitle">Machine Learning Research Scientist — Bosch Center for Artificial Intelligence</p>
-            </td>
-            <td style="text-align:right;vertical-align:top;" class="muted">Apr 2022 – Dec 2023</td>
-          </tr>
-          <tr><td colspan="2" class="subtle">
-            • Built diffusion pipelines guided by CLIP embeddings for targeted data augmentation<br>
-            • Sensor sequence modeling with deep Markov models and Transformers<br>
-            • Autoencoder diffusion model to enhance anomaly sample generation
-          </td></tr>
-
-          <tr><td colspan="2" style="height:10px;"></td></tr>
-
-          <tr>
-            <td style="vertical-align:top;">
-              <p class="papertitle">Research Assistant — Northeastern University, Boston, MA</p>
-            </td>
-            <td style="text-align:right;vertical-align:top;" class="muted">Sep 2017 – Mar 2022</td>
-          </tr>
-          <tr><td colspan="2" class="subtle">
-            • SO(3)‑equivariant deep generative models for motion prediction<br>
-            • Circular‑symmetric neural layer for 360° panoramic LiDAR (autonomous driving)<br>
-            • Auto‑regressive generative models for channel estimation & augmentation in OFDM
-          </td></tr>
-
-          <tr><td colspan="2" style="height:10px;"></td></tr>
-
-          <tr>
-            <td style="vertical-align:top;">
-              <p class="papertitle">Machine Learning Research Intern — Broad Institute of MIT and Harvard</p>
-            </td>
-            <td style="text-align:right;vertical-align:top;" class="muted">Jan 2020 – Apr 2020</td>
-          </tr>
-          <tr><td colspan="2" class="subtle">
-            • Built deep generative models for function‑specific protein representations (AAV DNA delivery)
-          </td></tr>
-
-          <tr><td colspan="2" style="height:10px;"></td></tr>
-
-          <tr>
-            <td style="vertical-align:top;">
-              <p class="papertitle">Wireless Communication Engineer — Sicrens s.r.l., Melzo, Italy</p>
-            </td>
-            <td style="text-align:right;vertical-align:top;" class="muted">2016 – 2017</td>
-          </tr>
-          <tr><td colspan="2" class="subtle">
-            • Implemented UWB‑based indoor navigation algorithms
-          </td></tr>
-        </table>
-      </td>
-    </tr>
-
-    <!-- Project placeholder: keep one template block -->
-    <tr>
-      <td style="padding:0 24px;">
-        <div class="section-title">Project (template)</div>
+        <h2>Project (template)</h2>
         <table style="width:100%">
           <tr>
             <td style="width:25%;vertical-align:top;">
@@ -157,15 +48,10 @@
               </div>
             </td>
             <td style="width:75%;vertical-align:top;padding-left:16px;">
-              <p class="papertitle">Coming Soon: Vision–Language Guided Defect Augmentation</p>
-              <p class="subtle">
-                Placeholder for a future write‑up. Keep this as a template to add a project summary, collaborators, links to a paper or code,
-                and a short teaser image. This preserves the original template’s “project” look and feel.
-              </p>
+              <p class="papertitle"><a href="project.html">Vision–Language Guided Defect Augmentation</a></p>
               <p>
-                <span class="tag">Diffusion</span>
-                <span class="tag">CLIP</span>
-                <span class="tag">Anomaly Detection</span>
+                Placeholder for a future write-up. Click the title to open a dedicated page, where you can later add
+                a short abstract, collaborators, links, and media—matching the original template’s look.
               </p>
             </td>
           </tr>
@@ -173,68 +59,87 @@
       </td>
     </tr>
 
-    <!-- Education -->
+    <!-- Experience -->
     <tr>
       <td style="padding:0 24px;">
-        <div class="section-title">Education</div>
+        <h2>Experience</h2>
         <table style="width:100%">
           <tr>
-            <td><span class="papertitle">Ph.D., Electrical &amp; Computer Engineering — Northeastern University</span></td>
-            <td style="text-align:right;" class="muted">2022</td>
+            <td style="width:72%;vertical-align:top;">
+              <p class="papertitle">Machine Learning Research Scientist II — Bosch Center for Artificial Intelligence</p>
+            </td>
+            <td style="width:28%;text-align:right;vertical-align:top;">Jan 2024 – Present</td>
           </tr>
-          <tr><td colspan="2" class="subtle">Major: Machine Learning</td></tr>
-          <tr><td colspan="2" style="height:8px;"></td></tr>
+          <tr><td colspan="2">
+            Conduct advanced research on text- and image-guided diffusion models for industrial anomaly detection;
+            collaborate with cross‑functional teams to improve data augmentation for large‑scale manufacturing.
+          </td></tr>
+
+          <tr><td colspan="2" style="height:10px;"></td></tr>
+
           <tr>
-            <td><span class="papertitle">M.Sc., Telecommunications Engineering — Politecnico di Milano</span></td>
-            <td style="text-align:right;" class="muted">2014</td>
+            <td style="vertical-align:top;">
+              <p class="papertitle">Machine Learning Research Scientist — Bosch Center for Artificial Intelligence</p>
+            </td>
+            <td style="text-align:right;vertical-align:top;">Apr 2022 – Dec 2023</td>
           </tr>
-          <tr><td colspan="2" class="subtle">110/110, cum laude (highest honors) • Telecommunications Systems &amp; Signal Processing</td></tr>
-          <tr><td colspan="2" style="height:8px;"></td></tr>
+          <tr><td colspan="2">
+            Developed CLIP‑guided diffusion pipelines for targeted data augmentation; built deep Markov models and
+            Transformers for sensor sequence modeling; designed an autoencoder diffusion model to enrich anomaly data.
+          </td></tr>
+
+          <tr><td colspan="2" style="height:10px;"></td></tr>
+
           <tr>
-            <td><span class="papertitle">B.Sc., Electrical Engineering — Amirkabir University of Technology</span></td>
-            <td style="text-align:right;" class="muted">2011</td>
+            <td style="vertical-align:top;">
+              <p class="papertitle">Research Assistant — Northeastern University, Boston, MA</p>
+            </td>
+            <td style="text-align:right;vertical-align:top;">Sep 2017 – Mar 2022</td>
           </tr>
-          <tr><td colspan="2" class="subtle">Telecommunications Systems</td></tr>
+          <tr><td colspan="2">
+            Created SO(3)-equivariant deep generative models for motion prediction; introduced a circular‑symmetric
+            neural layer for 360° LiDAR; developed auto‑regressive generative models for OFDM data augmentation.
+          </td></tr>
+
+          <tr><td colspan="2" style="height:10px;"></td></tr>
+
+          <tr>
+            <td style="vertical-align:top;">
+              <p class="papertitle">Machine Learning Research Intern — Broad Institute of MIT and Harvard</p>
+            </td>
+            <td style="text-align:right;vertical-align:top;">Jan 2020 – Apr 2020</td>
+          </tr>
+          <tr><td colspan="2">
+            Built a deep generative model to learn function‑specific protein representations for AAV DNA delivery.
+          </td></tr>
+
+          <tr><td colspan="2" style="height:10px;"></td></tr>
+
+          <tr>
+            <td style="vertical-align:top;">
+              <p class="papertitle">Wireless Communication Engineer — Sicrens s.r.l., Melzo, Italy</p>
+            </td>
+            <td style="text-align:right;vertical-align:top;">2016 – 2017</td>
+          </tr>
+          <tr><td colspan="2">
+            Implemented a UWB‑based indoor navigation algorithm for localization solutions.
+          </td></tr>
         </table>
       </td>
     </tr>
 
-    <!-- Patents (selected) -->
+    <!-- Patents -->
     <tr>
       <td style="padding:0 24px;">
-        <div class="section-title">Patents (selected)</div>
+        <h2>Patents</h2>
         <ul style="margin:6px 0 0 18px;">
-          <li class="subtle">2025 — Data Augmentation Evaluation and Automated Training Set Improvement via Typicality. Qiu, Schmedding, <strong>Azari</strong>, Tikhonov, Condessa. US Patent App. 18/241,450.</li>
-          <li class="subtle">2024 — System and Method for Localized Text‑to‑Image Generation for Free via Cross‑Attention. He, Salakhutdinov, Kolter, Pereira, Semedo, <strong>Azari</strong>, … US Patent App. 18/208,075.</li>
-          <li class="subtle">2024 — One‑Step Diffusion Distillation via Deep Equilibrium Models. Geng, Polke, Kolter, <strong>Azari</strong>, Batalov, Condessa. US Patent App. 18/332,355.</li>
-          <li class="subtle">2024 — Sequence Modeling of Sensor Data for Manufacturing. Condessa, Willmott, Batalov, Semedo, Huang, Lin, <strong>Azari</strong>. US Patent App. 18/067,432.</li>
-          <li class="subtle">2024 — Industrial Quality Monitoring with Pre‑Trained Feature Extraction. Condessa, Willmott, Batalov, Semedo, Lin, <strong>Azari</strong>. US Patent App. 18/072,220.</li>
-        </ul>
-      </td>
-    </tr>
-
-    <!-- Publications (selected) -->
-    <tr>
-      <td style="padding:0 24px;">
-        <div class="section-title">Selected Publications</div>
-        <ul style="margin:6px 0 0 18px;">
-          <li class="subtle">Equivariant Deep Dynamical Model for Motion Prediction. <strong>B. Azari</strong>, D. Erdoğmuş. AISTATS 2022.</li>
-          <li class="subtle">Circular‑Symmetric Correlation Layer. <strong>B. Azari</strong>, D. Erdoğmuş. ECML PKDD 2022.</li>
-          <li class="subtle">Automated Deep Learning‑Based Wide‑Band Receiver. Azari et al. Computer Networks, 2022.</li>
-          <li class="subtle">Neural Network‑Based OFDM Receiver for Resource‑Constrained IoT Devices. Soltani et al. IEEE IoT Magazine, 2022.</li>
-          <li class="subtle">Deep Switching Auto‑Regressive Factorization: Application to Time Series Forecasting. Farnoosh, <strong>Azari</strong>, Ostadabbas. AAAI 2021.</li>
-        </ul>
-        <p class="subtle" style="margin-left:18px;">Full list on <a href="https://scholar.google.com/citations?hl=en&user=MpO6-QsAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>.</p>
-      </td>
-    </tr>
-
-    <!-- Mentorship -->
-    <tr>
-      <td style="padding:0 24px;">
-        <div class="section-title">Mentorship</div>
-        <ul style="margin:6px 0 0 18px;">
-          <li class="subtle">Bosch Center for AI Summer Internship — Myeongseob Ko (PhD, Virginia Tech), May–Aug 2023.</li>
-          <li class="subtle">Bosch Center for AI Summer Internship — Ashwini Pokle (PhD, Carnegie Mellon University), May–Aug 2022.</li>
+          <li>2025 — Data Augmentation Evaluation and Automated Training Set Improvement via Typicality. C. Qiu, S. Schmedding, <b>B. Azari</b>, N. Tikhonov, F. Condessa. US Patent App. 18/241,450.</li>
+          <li>2024 — System and Method for Localized Text‑to‑Image Generation for Free via Cross‑Attention. Y. He, R. Salakhutdinov, J. Kolter, M. Pereira, J. D. Semedo, <b>B. Azari</b>, … US Patent App. 18/208,075.</li>
+          <li>2024 — One‑Step Diffusion Distillation via Deep Equilibrium Models. Z. Geng, A. Polke, J. Kolter, <b>B. Azari</b>, I. Batalov, F. Condessa. US Patent App. 18/332,355.</li>
+          <li>2024 — System and Method with Sequence Modeling of Sensor Data for Manufacturing. F. Condessa, D. Willmott, I. Batalov, J. Semedo, Z. Huang, W. Y. Lin, <b>B. Azari</b>. US Patent App. 18/067,432.</li>
+          <li>2024 — Industrial Quality Monitoring System with Pre‑Trained Feature Extraction. F. Condessa, D. Willmott, I. Batalov, J. D. Semedo, W. Y. Lin, <b>B. Azari</b>. US Patent App. 18/072,220.</li>
+          <li>2024 — Methods and Systems for Performing Root Cause Analysis with a Trained ML Model. F. J. C. Condessa, D. T. Willmott, I. Batalov, J. D. Semedo, <b>B. Azari</b>, … US Patent App. 17/956,275.</li>
+          <li>In review — Controlled Defect Augmentation via Guided Diffusion Using Semantic Image Representations. <b>B. Azari</b>, C. Qiu, S. Schmedding, N. Tikhonov, F. Condessa. Patent under review.</li>
         </ul>
       </td>
     </tr>
@@ -243,8 +148,8 @@
     <tr>
       <td style="padding:0 24px 24px 24px;">
         <hr style="border:none;border-top:1px solid #eee;margin:12px 0;">
-        <p class="muted" style="font-size:12px;">
-          © <script>document.write(new Date().getFullYear())</script> Bahar Azari. • Site based on a minimalist academic template; styling retained.
+        <p style="font-size:12px;">
+          © <script>document.write(new Date().getFullYear())</script> Bahar Azari.
         </p>
       </td>
     </tr>

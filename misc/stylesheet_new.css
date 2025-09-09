@@ -1,0 +1,49 @@
+
+/* Minimal, clean styling for a single‑file GitHub Pages site */
+:root{
+  --bg:#0b0b0d;
+  --panel:#121217;
+  --text:#e6e6ea;
+  --muted:#a6a6ad;
+  --link:#8ab4f8;
+  --accent:#94f9c2;
+  --border:#1f1f26;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0; padding:0; background:var(--bg); color:var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; line-height:1.6}
+a{color:var(--link); text-decoration:none}
+a:hover{text-decoration:underline}
+img{display:block; max-width:100%; height:auto}
+
+.container{max-width:980px; margin:0 auto; padding:24px}
+.header{display:grid; grid-template-columns: 1.4fr 0.8fr; gap:24px; align-items:center; background:var(--panel); border:1px solid var(--border); border-radius:20px; padding:24px}
+.name{font-size:40px; line-height:1.1; margin:0 0 8px}
+.tagline{margin:0 0 12px; color:var(--accent); font-weight:600}
+.summary{margin:0 0 10px; color:var(--text)}
+.links{margin-top:10px; color:var(--muted)}
+.links span{opacity:.6; padding:0 8px}
+
+.photo{justify-self:end}
+.photo img{width:220px; height:220px; object-fit:cover; border-radius:20px; border:1px solid var(--border)}
+
+.section{margin-top:28px; background:var(--panel); border:1px solid var(--border); border-radius:20px; padding:20px}
+.section h2{margin:0 0 12px; font-size:22px}
+
+.bullets{margin:0; padding-left:18px}
+.bullets li{margin:6px 0}
+
+.cards{display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap:12px}
+.card{border:1px solid var(--border); border-radius:16px; padding:14px; background:#14141a}
+.card-title{margin:0 0 4px; font-size:18px}
+.card-meta{margin:0 0 8px; color:var(--muted); font-size:14px}
+.card-text{margin:0}
+
+.inline-link{white-space:nowrap}
+
+.footer{margin-top:28px; color:var(--muted); text-align:center}
+@media (max-width: 760px){
+  .header{grid-template-columns: 1fr; text-align:left}
+  .photo{justify-self:start}
+  .photo img{width:160px; height:160px}
+}
